@@ -6,7 +6,7 @@ import json, requests, math
 url = 'https://api.coinmarketcap.com/v1/ticker/'
 
 # List containing coins of interest
-coins = ['ripple','cardano','bitcoin']
+coins = ['bitcoin','cardano','ripple']
 
 # Alert if price has risen or fallen beyond threshold
 def alert(metric):
